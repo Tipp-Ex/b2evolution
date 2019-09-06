@@ -76,6 +76,8 @@ $SpecialList = array(
 	// site status services
 	'host-tracker.com',
 	'uptimerobot.com/',
+	// Generate page snapshots
+	'BingPreview',
 	// add your own...
 );
 
@@ -164,8 +166,10 @@ $user_agents = array(
 	1069 => array('robot', 'SemrushBot', 'SemrushBot' ),
 	1070 => array('robot', 'UptimeRobot', 'UptimeRobot' ),
 	1071 => array('robot', 'Qwantify', 'Qwant' ),
+	1072 => array('robot', 'BingPreview', 'BingPreview' ),
 	// Unknown robots:
 	5000 => array('robot', 'psycheclone', 'Psycheclone' ),
+	5001 => array('robot', 'Go-http-client', 'Go-Client' ),
 	// Aggregators:
 	10000 => array('aggregator', 'AppleSyndication/', 'Safari RSS (AppleSyndication)' ),
 	10001 => array('aggregator', 'Feedreader', 'Feedreader' ),
@@ -180,6 +184,7 @@ $user_agents = array(
 	10010 => array('aggregator', 'YandexBlog', 'YandexBlog'),
 	10011 => array('aggregator', ' Planet/', 'Planet Feed Reader'),
 	10012 => array('aggregator', 'UniversalFeedParser/', 'Universal Feed Parser'),
+	10013 => array('aggregator', 'Twitterbot', 'Twitter'),
 );
 
 /* Set user devices */
