@@ -74,6 +74,7 @@ $SpecialList = array(
 	'googlealert.com/',
 	// site status services
 	'host-tracker.com',
+	'uptimerobot.com/',
 	// add your own...
 );
 
