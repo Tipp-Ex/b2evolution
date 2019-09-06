@@ -160,6 +160,7 @@ $user_agents = array(
 	1067 => array('robot', 'IstellaBot/', 'IstellaBot' ),
 	1068 => array('robot', 'exb.de/crawler', 'ExB Language Crawler' ),
 	1069 => array('robot', 'SemrushBot', 'SemrushBot' ),
+	1070 => array('robot', 'UptimeRobot', 'UptimeRobot' ),
 	// Unknown robots:
 	5000 => array('robot', 'psycheclone', 'Psycheclone' ),
 	// Aggregators:
@@ -176,6 +177,7 @@ $user_agents = array(
 	10010 => array('aggregator', 'YandexBlog', 'YandexBlog'),
 	10011 => array('aggregator', ' Planet/', 'Planet Feed Reader'),
 	10012 => array('aggregator', 'UniversalFeedParser/', 'Universal Feed Parser'),
+
 );
 
 /* Set user devices */
