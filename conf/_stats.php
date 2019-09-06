@@ -68,14 +68,25 @@ $SpecialList = array(
 	'sitemeter.com/',
 	// aggregators
 	'bloglines.com/',
+	'Twitterbot',
 	// caches
 	'/search?q=cache:',		// Google cache
 	// redirectors
 	'googlealert.com/',
 	'facebook.com/externalhit_uatext.php/',
+	'Go-http-client',
 	// site status services
 	'host-tracker.com',
 	'uptimerobot.com/',
+	'/cron_exec.php',
+	// Generate page snapshots
+	'BingPreview',
+	// Services	
+	'Dispatch',		       // Paypal
+	'autodiscover',
+	'Slack-ImgProxy',	   // https://user-agents.net/bots/slack-imgproxy
+	// Unknown
+	'python-requests',
 	// add your own...
 );
 
@@ -162,10 +173,15 @@ $user_agents = array(
 	1067 => array('robot', 'IstellaBot/', 'IstellaBot' ),
 	1068 => array('robot', 'exb.de/crawler', 'ExB Language Crawler' ),
 	1069 => array('robot', 'SemrushBot', 'SemrushBot' ),
-	1070 => array('robot', 'UptimeRobot', 'UptimeRobot' ),
+	1070 => array('robot', 'UptimeRobot', 'Uptime' ),
 	1071 => array('robot', 'Qwantify', 'Qwant' ),
+	1072 => array('robot', 'BingPreview', 'BingPreview' ),
+	1073 => array('robot', 'Nimbostratus-Bot', 'Nimbostratus' ),
+	1074 => array('robot', 'ips-agent', 'ips-agent' ),	
+	1075 => array('robot', 'DuckDuckBot-Https', 'DuckDuckGo' ),		
 	// Unknown robots:
 	5000 => array('robot', 'psycheclone', 'Psycheclone' ),
+	5001 => array('robot', 'Go-http-client', 'Go-Client' ),
 	// Aggregators:
 	10000 => array('aggregator', 'AppleSyndication/', 'Safari RSS (AppleSyndication)' ),
 	10001 => array('aggregator', 'Feedreader', 'Feedreader' ),
@@ -180,6 +196,7 @@ $user_agents = array(
 	10010 => array('aggregator', 'YandexBlog', 'YandexBlog'),
 	10011 => array('aggregator', ' Planet/', 'Planet Feed Reader'),
 	10012 => array('aggregator', 'UniversalFeedParser/', 'Universal Feed Parser'),
+	10013 => array('aggregator', 'Twitterbot', 'Twitter'),
 );
 
 /* Set user devices */
