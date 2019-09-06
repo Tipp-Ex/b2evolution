@@ -72,6 +72,7 @@ $SpecialList = array(
 	'/search?q=cache:',		// Google cache
 	// redirectors
 	'googlealert.com/',
+	'facebook.com/externalhit_uatext.php/',
 	// site status services
 	'host-tracker.com',
 	'uptimerobot.com/',
