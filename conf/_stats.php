@@ -69,7 +69,6 @@ $SpecialList = array(
 	'Mediatoolkitbot',
 	// aggregators
 	'bloglines.com/',
-	'Twitterbot',
 	// caches
 	'/search?q=cache:',		// Google cache
 	// redirectors
@@ -77,6 +76,7 @@ $SpecialList = array(
 	'facebook.com/externalhit_uatext.php/',
 	'Go-http-client',
 	'TrendsmapResolver',
+	'Twitterbot',
 	// site status services
 	'host-tracker.com',
 	'uptimerobot.com',
@@ -87,6 +87,7 @@ $SpecialList = array(
 	'Dispatch',		       // Paypal
 	'autodiscover',
 	'Slack-ImgProxy',	   // https://user-agents.net/bots/slack-imgproxy
+
 	// Unknown
 	'python-requests',
 	// add your own...
@@ -175,6 +176,8 @@ $user_agents = array(
 	1067 => array('robot', 'IstellaBot/', 'IstellaBot' ),
 	1068 => array('robot', 'exb.de/crawler', 'ExB Language Crawler' ),
 	1069 => array('robot', 'SemrushBot', 'SemrushBot' ),
+	
+	// Robots 2019:
 	1070 => array('robot', 'UptimeRobot', 'Uptime' ),
 	1071 => array('robot', 'Qwantify', 'Qwant' ),
 	1072 => array('robot', 'BingPreview', 'BingPreview' ),
@@ -232,7 +235,7 @@ $user_agents = array(
 	1127 => array('robot', 'MIIxpc', 'MIIxpc' ),	
 	1128 => array('robot', 'Mister.PiX', 'Mister.PiX' ),
 	1129 => array('robot', 'moget', 'moget' ),
-	1130 => array('robot', 'Mozilla', 'Mozilla' ),	
+	1130 => array('robot', 'Vampire', 'Vampire' ),
 	1131 => array('robot', 'Navroad', 'Navroad' ),
 	1132 => array('robot', 'NearSite', 'NearSite' ),
 	1133 => array('robot', 'NetAnts', 'NetAnts' ),
@@ -273,7 +276,7 @@ $user_agents = array(
 	1168 => array('robot', 'WebEnhancer', 'WebEnhancer' ),
 	1169 => array('robot', 'WebFetch', 'WebFetch' ),
 	1170 => array('robot', 'WebLeacher', 'WebLeacher' ),
-	1171 => array('robot', 'WebmasterWorldForumBot', 'WebmasterWorldForumBot' ),		
+	1171 => array('robot', 'WebmasterWorldForumBot', 'WorldForumBot' ),		
 	1172 => array('robot', 'WebReaper', 'WebReaper' ),	
 	1173 => array('robot', 'WebSauger', 'WebSauger' ),
 	1174 => array('robot', 'Quester', 'Quester' ),	
@@ -285,6 +288,7 @@ $user_agents = array(
 	1180 => array('robot', 'WWWOFFLE', 'WWWOFFLE' ),
 	1181 => array('robot', 'Zeus', 'Zeus' ),
 	1182 => array('robot', 'Teleport', 'Teleport' ),
+
 	// Unknown robots:
 	5000 => array('robot', 'psycheclone', 'Psycheclone' ),
 	5001 => array('robot', 'Go-http-client', 'Go-Client' ),
@@ -301,6 +305,7 @@ $user_agents = array(
 	5012 => array('robot', 'SmartDownload', 'SmartDownload' ),
 	5013 => array('robot', 'WebEMailExtrac', 'WebEMailExtrac' ),
 	5014 => array('robot', 'Amazon', 'Amazon' ),
+	
 	// Aggregators:
 	10000 => array('aggregator', 'AppleSyndication/', 'Safari RSS (AppleSyndication)' ),
 	10001 => array('aggregator', 'Feedreader', 'Feedreader' ),
@@ -315,7 +320,6 @@ $user_agents = array(
 	10010 => array('aggregator', 'YandexBlog', 'YandexBlog'),
 	10011 => array('aggregator', ' Planet/', 'Planet Feed Reader'),
 	10012 => array('aggregator', 'UniversalFeedParser/', 'Universal Feed Parser'),
-	10013 => array('aggregator', 'Twitterbot', 'Twitter'),
 );
 
 /* Set user devices */
